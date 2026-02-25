@@ -1,0 +1,70 @@
+/* ===== Global Styles ===== */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    text-align: center;
+}
+
+/* ===== Container ===== */
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* ===== Headings ===== */
+
+h1 {
+    color: #1e3a8a;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #2563eb;
+    margin-bottom: 15px;
+}
+
+/* ===== Paragraphs ===== */
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* ===== Navigation ===== */
+
+nav {
+    margin-top: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    background-color: #2563eb;
+    padding: 10px 18px;
+    border-radius: 5px;
+    margin: 5px;
+    display: inline-block;
+    transition: 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #1e40af;
+}
+
+/* ===== Footer ===== */
+
+footer {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #777;
+}
